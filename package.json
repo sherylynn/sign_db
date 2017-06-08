@@ -1,0 +1,29 @@
+{
+  "name": "sign_db",
+  "version": "1.0.0",
+  "description": "express-pouchdb",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-pouchdb": "^2.3.7",
+    "pouchdb": "^6.2.0",
+    "pouchdb-adapter-node-websql": "^6.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sherylynn/sign_db.git"
+  },
+  "keywords": [
+    "pouchdb"
+  ],
+  "author": "lynn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sherylynn/sign_db/issues"
+  },
+  "homepage": "https://github.com/sherylynn/sign_db#readme"
+}
