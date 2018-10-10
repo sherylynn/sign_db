@@ -50,11 +50,11 @@ server.on('listening', function() {
 server.on('error', function(error) {
   switch (error.code) {
     case 'EACCES':
-      console.error(bind + '需要权限许可');
+      console.error('需要权限许可');
       process.exit(1);
       break;
     case 'EADDRINUSE':
-      console.error(bind + '端口已被占用');
+      console.error('端口已被占用');
       process.exit(1);
       break;
     default:
